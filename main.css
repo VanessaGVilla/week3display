@@ -16,7 +16,9 @@ h1, h2, h3 {
 }
 
 aside {
-	
+    position: relative;
+   float: right;
+   width: 100%;
 }
 
 footer {
