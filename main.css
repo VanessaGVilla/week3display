@@ -5,6 +5,13 @@
 	font-family: 'Rakkas', cursive;
 	font-family: 'Sanchez', serif;
 */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+     box-sizing: inherit;
+}
 
 body {
 	font-size: 16px;
@@ -16,32 +23,30 @@ h1, h2, h3 {
 }
 
 aside {
-    position: relative;
-    width:150px; 
-   float: left;
-}
+    height: 250px;
+    width: 200px;
+    float: left;
+} 
 
 footer {
-   position: relative;
-   float: left;
-    clear: left;
-   width: 100%;
+   width: 50px;
+    clear: both;
 }
 
 header {
-    position: relative;
-    float: left;
-    width: 100%;
-}
+   width: 50px;
+   }
 
 img {
 	max-width: 75%;
 }
 
 main {
-   width:150px; 
+   height: 250px;
+   width: 600px;
    float: left;
-
+   padding: 20px;
+   
 }
 
 nav {
@@ -54,11 +59,8 @@ nav {
 
 #main-container {
 	list-style-type: none;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        width: 230px;
-        float: left;
+       width: 230px;
+       margin:0 auto;
+      float: left;
 
 }
