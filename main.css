@@ -23,20 +23,21 @@ h1, h2, h3 {
 }
 
 aside {
-     height: 250px;
-     width: 200px;
+     
+     width: 20%;
     float: left;
 } 
 
 footer {
-   width: 50px;
-    clear: both;
-    position: relative;
+  
+    clear: left;
+    position: fixed;
+    bottom: 5px;
 }
 
 header {
-   width: 50px;
-   margin-left: 15px;
+   
+   margin-left: 1em;
    }
 
 img {
@@ -44,27 +45,23 @@ img {
 }
 
 main {
-   height: 250px;
-   width: 600px;
-   float: left;
-   padding: 20px;
    
-}
+   width: 70%;
+   float: left;
+  }
 
 nav {
-   width: 100%;
-       margin-left: 5px;
-      float: left;
+  float: left;
+  width: 10em;
 }
 
 #copyright {
-	font-size: 80%;
+	clear: left;
+   font-size: 80%;
 }
 
 #main-container {
-	list-style-type: none;
-       width: 100%;
-       margin: auto;
-      float: left;
+	margin-left: 1em;
+      width: 100%
 
 }
